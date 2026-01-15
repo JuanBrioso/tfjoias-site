@@ -124,8 +124,7 @@ nav a:hover{
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  overflow: hidden;    /* corta partes do vídeo que passam da área */
+  justify-content: center;   
 }
 
 .comeco .video-bg {
