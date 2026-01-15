@@ -407,52 +407,118 @@ nav a:hover{
 }
 
 @media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: 70px !important;
+        width: 95% !important;
+        gap: 1px !important;
+        padding: 10px;
+        text-align: center !important;
+        position: static;
+        align-items: center !important;
+        justify-content: center !important;
+    }
 
-  .header {
-    flex-direction: column;
-    width: 95%;
-    padding: 10px;
-    text-align: center;
-    height: auto !important;
-  }
+    .logo{
+        font-size: 30px !important;
+    }
 
-  .logo {
-    font-size: 22px !important;
-  }
+    nav {
+        flex-direction: column;
+        font-size: 10px !important;
+        gap: 50px !important;
+    }
 
-  nav {
-    flex-direction: row;
-    gap: 12px !important;
-    font-size: 12px !important;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+    .divisa {
+        width: 90%;
+        margin: 20px auto;
+    }
 
-  .comeco {
-    height: 100vh;
-    padding: 20px;
-    text-align: center;
-  }
+    .comeco {
+        height: 100vh;
+        padding: 20px;
+        text-align: center;
+    }
 
-  .container-img-button {
-    width: 90%;
-    height: auto;
-  }
+    .container-img-button {
+        width: 90%;
+        height: 300px;
+        margin: auto;
 
-  .sobre-nos,
-  .portfolio {
-    height: auto;
-    padding: 20px;
-  }
+        div {
+            margin-top: 100px;
 
-  .linha-1,
-  .linha-2 {
-    flex-direction: column;
-    gap: 20px;
-  }
+            h1 {
+                font-size: 22px;
+            }
 
-  #quadro-geral {
-    width: 180px;
-    height: 180px;
-  }
+            p {
+                font-size: 16px;
+            }
+
+            button {
+                width: 90%;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .sobre-nos {
+        height: auto;
+        padding: 20px;
+    }
+
+    .container-texto-sobre{
+        font-size: 14px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .container-valores {
+    
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .linha-1,
+    .linha-2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #box-valores {
+        font-size: 14px;
+        text-align: center;
+        h2 {
+            font-size: 18px;
+        }
+    }
+
+    .portfolio {
+        padding: 20px;
+        height: 110vh;
+    }
+
+    .portfolio-texto {
+        font-size: 14px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .container-quadro-itens {
+        gap: 10px;
+    }
+
+    .linha-quadro {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #quadro-geral {
+        width: 200px;
+        height: 200px;
+        p {
+            font-size: 18px;
+        }
+    }
 }
