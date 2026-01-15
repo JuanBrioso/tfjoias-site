@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#box-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(85, 69, 61);
+    text-align: center;
+    border: #00000024 3px solid;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+#box-contato:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    scale: 1.02;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 50px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+.img-instagram{
+    background-image: url(../img/insta.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 65px;
+}
+
+.img-whatsapp{
+    background-image: url(../img/whatsapp.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+}
+
+.sec-contato{
+  height: 140vh;
+}

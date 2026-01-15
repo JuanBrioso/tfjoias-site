@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=more_vert");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+@keyframes fade{
+    0%{
+
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Jost", sans-serif;
+    font-size: 10px;
+    animation: fade 300ms ease-in-out;
+}
+
+.form-cadastro{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    padding: 30px;
+    background-image: linear-gradient(to right, #ffffffc7, white, #ffffffc7);
+    border-bottom: 3px solid #922b2b;
+    border-radius: 3px;
+    
+}
+
+.form-cadastro input{
+    width: 700px;
+    height: 30px;
+    background-color: transparent;
+    border: transparent;
+    padding: 5px;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    
+} 
+
+.form-cadastro input:focus{
+    border-bottom: 3px solid #8f922b;
+    transition: 300ms;
+}
+
+.botoes{
+    margin-top: 20px;
+}
+
+.form-cadastro button{
+    width: 700px;
+    height: 30px;
+    background-color: #8f9238;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-family: "Jost", sans-serif;
+    cursor: pointer;
+    transition: 300ms;
+    margin-top: 2px;
+    border-radius: 3px;
+}
+
+.form-cadastro button:hover{
+    background-color: #3c3c2d;
+    transition: 300ms;
+    transform: scale(1.02);
+}
+
+
+
+.tela-de-cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}

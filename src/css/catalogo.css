@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=more_vert");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes SubidinhaFADE{
+    0%{
+        transform: translateY(0px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(-10px);
+        opacity: 1;
+    }
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #aeae22;
+    border-radius: 10px;
+    height: 10px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    z-index: 1;
+    background-image: linear-gradient(to right, #ffffffc7, white, #ffffffc7);
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    position: fixed;
+    margin: 17px;
+    border: #2b2727c7 1px solid;
+    animation: SubidinhaFADE 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+    color: #322222;
+}
+
+.logo{
+    font-size: 50px;
+}
+
+nav{
+    color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    gap: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #322222;
+}
+
+a::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #322222;
+    transition: width 0.3s ease-in-out;
+}
+a:hover::after{
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+}
+a:hover{
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    height: 240vh;
+}
+
+.textop1{
+    margin-top: 150px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(85, 69, 61);
+    text-align: center;
+    border: #00000024 3px solid;
+    padding: 20px;
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 50px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+#item-catalogo{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #0000004a;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.5s;
+    animation: SubidinhaFADE 0.5s ease-in-out;
+    animation-fill-mode:backwards;
+}
+
+#item-catalogo:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    background-color: rgb(239, 235, 235);
+}
+
+
+
+.box-item-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-1 p{
+    font-size: 25px;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+
+.img-1{
+    background-image: url(../img/alianças.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+
+.img-1-2{
+    background-image: url(../img/aneldenoivado.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+
+}
+
+.box-item-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-2 p{
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+
+}
+
+
+.img-2{
+    background-image: url(../img/colar2.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.img-2-2{
+    background-image: url(../img/colar3.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.box-item-3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-3 p{
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+
+}
+
+
+.img-3{
+    background-image: url(../img/corrente-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.img-3-2{
+    background-image: url(../img/corrente2.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.box-item-4{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-4 p{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+
+.img-4{
+    background-image: url(../img/pulseira\ fem2.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+
+.box-item-5{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-5 p{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+
+.img-5{
+    background-image: url(../img/Pulmasc1.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+
+.box-item-6{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-6 p{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.img-6{
+    background-image: url(../img/anelprataform2.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+
+.img-ouro-6{
+    background-image: url(../img/anelformaturaouro.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+
+.box-item-7{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.text-7 p{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.img-7{
+    background-image: url(../img/personalizado.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+    section{
+        height: 210vh;
+    }
+
+    .textop1{
+        font-size: 16px;
+    }
+
+    #item-catalogo{
+        gap: 10px;
+        padding: 10px;
+        height: 150px;
+    }
+
+    #item-catalogo p{
+        font-size: 18px;
+    }
+
+    .img-1, .img-1-2, .img-4, .img-5, .img-6, .img-ouro-6{
+        height: 150px;
+        width: 150px;
+    }
+
+    .img-2, .img-2-2, .img-3{
+        height: 150px;
+        width: 200px;
+    }
+
+    .img-3-2{
+        margin-bottom: 30px;
+        height: 120px;
+        width: 230px;
+    }
+
+    .box-item-7{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-7{
+        height: 150px;
+        width: 110px;
+
+    }
+}
+
+
+
+
+
+    
