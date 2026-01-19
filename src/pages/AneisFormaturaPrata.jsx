@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom';
 
 export default function AneisFormaturaPrata() {
   // 1. Dados das alianças (simulando um "catálogo")
-  const Aneisformatura = [
-    
-  ];
 
   // 🔗 Substitua o ID abaixo pelo ID real do seu arquivo do Google Drive
   const driveFileId = "1lzeJ7ZEpq0SnQIU7UbezHQ6jvPwZNfeZ";

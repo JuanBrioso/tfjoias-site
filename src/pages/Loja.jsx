@@ -1,4 +1,4 @@
-import imagem1 from "../img/aneis-dourados.png";
+
 import anel1 from "../img/anel1.jpeg";
 import anel2 from "../img/anel2.jpeg";
 import anel3 from "../img/anel3.jpeg";
