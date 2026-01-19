@@ -6,7 +6,6 @@ export default function AliancaOuro() {
 
 // 🔗 Substitua o ID abaixo pelo ID real do seu arquivo do Google Drive
   const driveFileId = "1d3z1BpiKWBrWZCj-TSzIOdkt-sEG_M2G";
-  
 
   return (
     <>
