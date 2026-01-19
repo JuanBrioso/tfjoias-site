@@ -290,7 +290,7 @@
   }
 
   .caixa-produto{
-    width: 180px;
+    width: 280px;
     border: 1px solid #ccc;
     border-radius: 10px;
     text-align: center;
@@ -305,8 +305,8 @@
 
 /* Container da imagem */
 .container-img-caixa{
-    height: 200px;
-    width: 179px;
+    height: 300px;
+    width: 279px;
 }
 
 .item-p{
