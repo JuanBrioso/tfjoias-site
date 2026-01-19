@@ -4,7 +4,6 @@ import '../css/inicio.css';
 
 export default function Home() {
   // Número de WhatsApp (coloque o seu aqui no formato internacional, ex: 55 + DDD + número)
-  const whatsappNumber = "5511999999999";
 
   return (
     <>

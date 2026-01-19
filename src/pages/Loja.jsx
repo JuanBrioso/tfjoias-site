@@ -179,17 +179,29 @@ export default function Loja() {
   };
 
   useEffect(() => {
-    setAnimating(true);
-    const timeout = setTimeout(() => {
-      const filtrados =
-        active === null
-          ? produtos
-          : produtos.filter((p) => p.categoria === categorias.find((c) => c.id === active).nome);
-      setFiltered(filtrados);
-      setAnimating(false);
-    }, 200);
-    return () => clearTimeout(timeout);
-  }, [active]);
+  setAnimating(true);
+
+  const timeout = setTimeout(() => {
+    const categoriaAtiva =
+      active === null
+        ? null
+        : categorias.find((c) => c.id === active);
+
+    const filtrados =
+      categoriaAtiva === null
+        ? produtos
+        : produtos.filter(
+            (p) => p.categoria === categoriaAtiva?.nome
+          );
+
+    setFiltered(filtrados);
+    setAnimating(false);
+  }, 200);
+
+  return () => clearTimeout(timeout);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [active]);
+
 
   return (
     <>
