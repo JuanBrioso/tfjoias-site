@@ -409,7 +409,7 @@ nav a:hover{
     .header {
         flex-direction: column;
         height: 70px !important;
-        width: 95% !important;
+        width: 90% !important;
         gap: 1px !important;
         padding: 10px;
         text-align: center !important;
