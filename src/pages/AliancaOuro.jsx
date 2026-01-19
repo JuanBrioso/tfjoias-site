@@ -1,8 +1,4 @@
-import alianca1 from '../img/alianças.png'; 
-import alianca2 from '../img/aliancaspg.png';
-import alianca3 from '../img/aliancarose.webp';
-import alianca4 from '../img/aliancadetalhes.png';
-import alianca5 from '../img/aliancasouro.jpg';
+
 import '../css/aliancaCompromisso.css';
 import { Link } from 'react-router-dom';
 
