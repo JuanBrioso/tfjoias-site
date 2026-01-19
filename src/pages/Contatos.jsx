@@ -30,7 +30,7 @@ export default function Contato() {
 
             </div>
             </a>
-            <a href="https://wa.me/send?phone=558893265330&text=Olá, gostaria de mais informações sobre as joias.">
+            <a href="https://wa.me/5585992396217?text=Ol%C3%A1%2C%20tenho%20interesse%20nas%20joias%21">
                 <div id='box-contato' className='whatsapp-iana'>
                 <div img className='img-whatsapp'>
 
@@ -42,7 +42,7 @@ export default function Contato() {
 
             </div>
             </a>
-            <a href="https://wa.me/send?phone=558893265330&text=Olá, gostaria de mais informações sobre as joias.">
+            <a href="https://wa.me/5585994282122?text=Ol%C3%A1%2C%20tenho%20interesse%20nas%20joias%21">
                 <div id='box-contato' className='whatsapp-eduarda'>
                 <div img className='img-whatsapp'>
 
